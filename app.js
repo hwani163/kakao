@@ -9,7 +9,7 @@ var bodyParser = require('body-parser');
 var index = require('./routes/index');
 var addFriend = require('./routes/addFriend');
 var message = require('./routes/message');
-var removeFriend = require('./routes/removeFriend');
+// var removeFriend = require('./routes/removeFriend');
 var app = express();
 
 // view engine setup
