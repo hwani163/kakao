@@ -28,7 +28,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/keyboard', index);
 app.use('/friend', addFriend);
 app.use('/message', message);
-app.use('/chat_room', removefriend);
+// app.use('/chat_room', removefriend);
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   var err = new Error('Not Found');
